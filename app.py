@@ -49,6 +49,4 @@ class Bird:
     def move(self):
         self.tick_count += 1
 
-
-while True:
-    Bird.move()
+        d = self.vel*self.tick_count + 1.5*self.tick_count**2  # calculate displacement
