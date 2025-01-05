@@ -1,8 +1,11 @@
 # FLAPPY BIRB AI (NEAT ALGORITHM)
 
 <div align="center">
-https://github.com/user-attachments/assets/3d00ce2a-cdf3-4562-816f-aa2310a6c434
   
+
+https://github.com/user-attachments/assets/5b5782cc-7546-40a8-896e-9b12ee1383af
+
 </div>
+
 
 
