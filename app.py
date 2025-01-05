@@ -3,6 +3,7 @@ import random
 import time
 import neat
 import os
+import pickle
 
 pygame.font.init()
 
@@ -282,6 +283,8 @@ def run(config_path):
     stats = neat.StatisticsReporter()
     p.add_reporter(stats)
     winner = p.run(main, 50)  # 50 generations
+    with open("winner.pkl", "wb") as f:
+        pickle.dump(winner, f)
 
 
 if __name__ == "__main__":
