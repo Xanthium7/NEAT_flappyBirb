@@ -27,7 +27,7 @@ BASE_IMG = pygame.transform.scale2x(pygame.image.load(
 BG_IMG = pygame.transform.scale2x(pygame.image.load(
     os.path.join("imgs", "bg.png")))
 
-STAT_FONT = pygame.font.SysFont("comicsans", 50)
+STAT_FONT = pygame.font.SysFont("impact", 50)
 
 
 class Bird:
