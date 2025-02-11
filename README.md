@@ -61,3 +61,41 @@ The NEAT algorithm is used to evolve neural networks that control the birds:
 1. Install required packages:
 ```bash
 pip install pygame neat-python
+
+## Understanding NEAT Algorithm
+
+NEAT (NeuroEvolution of Augmenting Topologies) is a genetic algorithm that evolves neural networks. Key features:
+
+### 1. Starting Simple
+- Begins with simple networks
+- Gradually adds complexity through evolution
+
+### 2. Genetic Encoding
+- Each network structure is encoded in a genome
+- Includes nodes and connections with weights
+
+### 3. Speciation
+- Similar networks are grouped into species
+- Protects innovation through similar-with-similar breeding
+
+### 4. Fitness Sharing
+- Rewards are shared within species
+- Prevents any one solution from dominating
+
+### 5. Innovation Through Evolution
+- New nodes and connections can be added
+- Existing structures can be modified
+
+## Performance Metrics
+- Generation count shows evolutionary progress
+- Score indicates current performance
+- Birds that survive longer and score higher have better fitness
+
+## Customization
+
+You can modify various parameters in the config-feedforward.txt file:
+- Population size
+- Mutation rates
+- Species threshold
+- Network activation functions
+
